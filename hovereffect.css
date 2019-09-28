@@ -28,6 +28,13 @@
 
 }
 
+.img-responsive{
+	height: 250px;
+	width: 300px;
+	padding: 5%;
+}
+
+
 .hovereffect img {
     display: block;
     position: relative;
