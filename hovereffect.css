@@ -5,9 +5,10 @@
     height: 100%;
     float: left;
     overflow: hidden;
-    position: relative;
+    position: center;
     text-align: center;
-    cursor: default;
+	cursor: default;
+	
 }
 .hovereffect .overlay {
     width: 100%;
@@ -18,20 +19,23 @@
 	bottom: 0;
 	padding: 1em;
 	height: 4.75em;
-	background: #79FAC4;
+	background: transparent;
 	color: #3c4a50;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 	visibility: hidden;
+	
 
 }
 
 .img-responsive{
-	height: 250px;
-	width: 300px;
+	height:275px;
+	width: 400px;
 	padding: 5%;
+
+    
 }
 
 

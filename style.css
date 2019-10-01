@@ -5,6 +5,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: whitesmoke;
+    background-position: fixed;
 }
 
 p {
@@ -66,8 +67,8 @@ a, a:hover, a:focus {
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
     -moz-box-shadow:    -1px 0 5px 0 #555;
-  -webkit-box-shadow: -1px 0 5px 0 #555;
-  box-shadow:         -1px 0 5px 0 #555;
+    -webkit-box-shadow: -1px 0 5px 0 #555;
+     box-shadow: -1px 0 5px 0 #555;
     
     
 }
